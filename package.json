@@ -1,0 +1,23 @@
+{
+  "name": "shop",
+  "version": "0.0.1",
+  "description": "Test versia shop",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "Pavel Ivasenko",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.0",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.0.6",
+    "jquery": "^3.1.1",
+    "nodemailer": "^0.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

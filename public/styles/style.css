@@ -1,0 +1,360 @@
+::-webkit-input-placeholder {
+    text-align:center;
+}
+::-webkit-input-placeholder {
+    color:#403C3D;
+}
+input, button{
+    background-color: #bcbaba;
+}
+html, body, #wrapper {
+    height: 100%;
+    font-family: TypeWriter, Franklin Gothic Book,sans-serif;
+    color: #403C3D;
+    font-size: 15px;
+    line-height: 1.5;
+    background-image: url(../images/63441956.jpg);
+}
+.menu-breadcrumbs{
+    margin-top: 25px;
+}
+.breadcrumbs{
+    padding-right: 13px;
+    padding-left: 13px;
+    border-top: 1px solid #2c3949;
+    border-bottom: 1px solid #2c3949;
+}
+.breadcrumbs li  {
+    font-size: 11px;
+    line-height: 18px;
+    display: inline;
+}
+.breadcrumbs li a{
+    position: relative;
+    text-decoration: none;
+
+}
+em{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #403C3D;
+}
+.message{
+    margin-top: 10px;
+}
+#special-message {
+    font-size: 17px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #2c3949;
+}
+.links-top{
+    border-bottom: 1px solid #2c3949;
+    margin: 0;
+    text-align: right;
+}
+.links-top li {
+    display: inline-block;
+    padding: 5px 0 5px 33px;
+}
+.links-top li a, .content-form a{
+    color: #403C3D;
+    position: relative;
+    text-decoration: none;
+}
+.links-top li a:hover, .head-left li a:hover, .links-footer li a:hover, .breadcrumbs li a:hover, .content-form a:hover, .nav-main ul li a:hover{
+    color: #d43f3a;
+}
+.links-top li a:before, .head-left li a:before, .links-footer li a:before, .breadcrumbs li a:before, .content-form a:before, .nav-main ul li a:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color:  #d43f3a;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.1s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+.links-top li a:hover:before, .head-left li a:hover:before, .links-footer li a:hover:before, .breadcrumbs li a:hover:before, .content-form a:hover:before, .nav-main ul li a:hover:before{
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.img-cart {
+    position: absolute;
+    top: 8px;
+    right: 91px;
+}
+.add-cart {
+    position: absolute;
+    z-index: 9999;
+    padding: 5px;
+    background: #004b63;
+    -webkit-transition: all .8s;
+    -o-transition: all .8s;
+    transition: all .8s;
+}
+.top-cart .add-cart{
+    opacity: 0;
+    /*display: none;*/
+    right: 15px;
+    top: 34px;
+    width: 273px;
+    font-size: 12px;
+}
+.add-cart .liner{
+    background-color: #fffef9;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.top-cart .add-cart p.empty {
+    padding: 8px 60px ;
+    font-size: 13px;
+    line-height: 12px;
+}
+.top-cart:hover .add-cart{
+    /*display: block;*/
+    opacity: 1;
+}
+.menu-header{
+    margin: 50px 0 24px 0;
+    padding: 0;
+}
+.menu-header li{
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    vertical-align: middle;
+}
+.logo{
+    height: 100px;
+    border-right: 1px solid #2c3949;
+    border-left: 1px solid #2c3949;
+}
+.logo img{
+    padding-top: 10px;
+}
+span{
+    font-style: italic;
+}
+.classy{
+    display: inline;
+    padding: 0 12px;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.search-box{
+    border-top: 1px solid #2c3949;
+    margin: 19px 0 0;
+    padding: 0;
+}
+form{
+    margin-top: 15px;
+}
+.head-left ul{
+    border-top: 1px solid #2c3949;
+    margin: 12px 0 0;
+    padding: 0;
+}
+.head-left a{
+    color: #403C3D;
+    position: relative;
+    text-decoration: none;
+}
+.name-logo{
+    margin: 25px 11px 0 0;
+    letter-spacing: 5px;
+    color: #2c3949;
+}
+.head-left li{
+    margin-top: 24px;
+}
+/*Основной контейнер*/
+.content_main{
+    margin-bottom: 50px;
+}
+.footer-letter{
+    height:90px;
+    border-top: 1px solid #2c3949;
+}
+.newLetter{
+    float: right;
+    margin: 12px 0;
+}
+label{
+    margin-right: 10px;
+    font-size: 13px;
+    line-height: 24px;
+    font-family: TypeWriter, Franklin Gothic Book,sans-serif;
+    color: #403C3D;
+    font-weight: normal;
+}
+button{
+    border-left: 0;
+}
+.links-footer ul{
+    padding: 20px 0 20px 60px;
+    margin-bottom: 0;
+    border-top: 1px solid #2c3949;
+    border-bottom: 1px solid #2c3949;
+
+}
+.links-footer ul li{
+    display: inline-block;
+    text-align: center;
+    padding-left: 15px;
+    color: #403C3D;
+}
+.links-footer ul li a{
+    text-decoration: none;
+    position: relative;
+    color: #403C3D;
+}
+.social-footer{
+    margin-top: 50px;
+}
+.social{
+    text-align: center;
+}
+.social ul{
+    margin-bottom: 70px;
+}
+.social ul li{
+    display: inline-block;
+    padding-right: 50px;
+
+
+}
+.social ul li img{
+    width: 30px;
+    height: 30px;
+
+}
+.social p{
+    text-align: center;
+}
+
+/*Контент about*/
+
+ .top-info img{
+    float: right;
+    margin-left: 30px;
+}
+.top-info p{
+    text-indent: 1.5em;
+    margin-bottom: 20px;
+    line-height: 1.8em;
+}
+.top-info p span{
+    font-weight: 900;
+}
+h5{
+    font-weight: 900;
+    padding-left: 61px;
+    margin: 50px 0 50px 0;
+}
+.delivery-info-pages, .feedback-info-pages, .payment-info-pages{
+    text-align: center;
+}
+.payment-info-pages img{
+    width: 150px;
+    height: 115px;
+}
+.feedback-info-pages img{
+    width: 266px;
+    height: 115px;
+}
+.content-form, .log_in-info-pages h4, .sign_up-info-pages h3{
+     text-align: center;
+}
+.sign_up-info-pages input{
+   width: 200px;
+}
+.sign_up-info-pages .button-login{
+    border-radius: 15px;
+    width: 105px;
+}
+.content-form .button-login{
+    border-radius: 15px;
+    width: 118px;
+    padding-left: 12px;
+}
+.slaider-main{
+    width: 288px;
+    margin-left: 419px;
+    margin-top: 45px;;
+}
+.bx-wrapper{
+    border: 2px solid #2c3949;
+}
+/*Блок с одеждой*/
+.womens{
+    overflow: auto;
+    float: right;
+    width: 1010px;
+    margin-top: 70px;
+}
+.womens-clothes, .man-clothes{
+    border: 1px solid lightslategray;
+    margin: 10px;
+    text-align: center;
+    float: left;
+    width: 316px;
+    height: 400px;
+}
+.womens-clothes button, .man-clothes button{
+    display: inline-block;
+    margin: 10px auto;
+}
+.womens-clothes img, .man-clothes img{
+    margin-top: 30px;
+}
+.man{
+    overflow: auto;
+    float: right;
+    width: 1024px;
+    margin-top: 70px;
+}
+.man-clothes img{
+    margin-top: 15px;
+}
+/*Блок с ед. одеждой*/
+
+.women-clothes-one{
+    margin-top: 70px;
+}
+.women-clothes-one h4{
+    margin-left: 346px;
+    font-weight: 700;
+}
+.women-clothes-one img{
+    display: block;
+    float: right;
+}
+.cost{
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+.women-clothes-one button{
+   position: absolute;
+    top: 335px;
+    left: 388px;
+    height: 33px;
+    width: 170px;
+}
